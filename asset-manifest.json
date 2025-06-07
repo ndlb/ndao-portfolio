@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ndao-portfolio/static/css/main.6d54b045.css",
+    "main.js": "/ndao-portfolio/static/js/main.7c1d4eda.js",
+    "static/js/453.b05d8aa5.chunk.js": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/ndao-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/ndao-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/churn.png": "/ndao-portfolio/static/media/churn.667ff577c42bfef20421.png",
+    "static/media/momo.png": "/ndao-portfolio/static/media/momo.036e9d04a81511463714.png",
+    "static/media/vcb.png": "/ndao-portfolio/static/media/vcb.6ce93f942726fba38055.png",
+    "static/media/pro_pic.jpg": "/ndao-portfolio/static/media/pro_pic.b2c9e1f14cb8a2b2be54.jpg",
+    "static/media/credit.png": "/ndao-portfolio/static/media/credit.dce359f33c519df960d8.png",
+    "static/media/segmentation.png": "/ndao-portfolio/static/media/segmentation.f707633a49ae1a3eeabd.png",
+    "index.html": "/ndao-portfolio/index.html",
+    "main.6d54b045.css.map": "/ndao-portfolio/static/css/main.6d54b045.css.map",
+    "main.7c1d4eda.js.map": "/ndao-portfolio/static/js/main.7c1d4eda.js.map",
+    "453.b05d8aa5.chunk.js.map": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d54b045.css",
+    "static/js/main.7c1d4eda.js"
+  ]
+}
