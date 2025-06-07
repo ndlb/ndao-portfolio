@@ -1,3 +1,10 @@
+.intro {
+    margin-top: 1rem;
+    font-size: 0.9rem;           // Smaller font size
+    color: #666;                 // Softer gray tone
+    line-height: 1.5;
+    max-width: 600px;            // Optional: limit width for better readability
+}
 .dark-mode .about-section {
     background-color: rgba(0, 0, 0, 0.2);
 }

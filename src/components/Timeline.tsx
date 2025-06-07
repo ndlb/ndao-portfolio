@@ -1,67 +1,83 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
+import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import '../assets/styles/Timeline.scss';
 
 function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experience</h1>
         <VerticalTimeline>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Starting July 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Corpus & Language Model Development Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Rochester</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Corpus Development, NLP, Linguistics, Language Modeling, Research
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="June 2025 – Present"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Dashboards, Marketing Analytics, Operations Analysis, Reporting, Visualization
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2024 – Present"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Teaching Assistant & Peer Educator</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Rochester</h4>
+            <p>
+              Python, Economics, Math, Peer Tutoring, Lab Instruction
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Summer 2024"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">MB Bank – Hanoi, Vietnam</h4>
+            <p>
+              SQL, Excel, Risk Analytics, Financial Reporting, CASA Data
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Spring 2024"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Market Research Extern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <p>
+              User Interviews, Competitor Research, Product Strategy, Insight Synthesis
+            </p>
+          </VerticalTimelineElement>
+
         </VerticalTimeline>
       </div>
     </div>
@@ -69,3 +85,4 @@ function Timeline() {
 }
 
 export default Timeline;
+
