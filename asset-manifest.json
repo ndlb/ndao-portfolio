@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ndao-portfolio/static/css/main.6d54b045.css",
-    "main.js": "/ndao-portfolio/static/js/main.7c1d4eda.js",
+    "main.js": "/ndao-portfolio/static/js/main.bd7fc7bf.js",
     "static/js/453.b05d8aa5.chunk.js": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/ndao-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/ndao-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -13,11 +13,11 @@
     "static/media/segmentation.png": "/ndao-portfolio/static/media/segmentation.f707633a49ae1a3eeabd.png",
     "index.html": "/ndao-portfolio/index.html",
     "main.6d54b045.css.map": "/ndao-portfolio/static/css/main.6d54b045.css.map",
-    "main.7c1d4eda.js.map": "/ndao-portfolio/static/js/main.7c1d4eda.js.map",
+    "main.bd7fc7bf.js.map": "/ndao-portfolio/static/js/main.bd7fc7bf.js.map",
     "453.b05d8aa5.chunk.js.map": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d54b045.css",
-    "static/js/main.7c1d4eda.js"
+    "static/js/main.bd7fc7bf.js"
   ]
 }
