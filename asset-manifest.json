@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/ndao-portfolio/static/css/main.12933fd2.css",
-    "main.js": "/ndao-portfolio/static/js/main.ec124644.js",
+    "main.js": "/ndao-portfolio/static/js/main.b6c8fd15.js",
     "static/js/453.b05d8aa5.chunk.js": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/ndao-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/ndao-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/productivity.jpg": "/ndao-portfolio/static/media/productivity.9dae59f6c8c01dcc5b24.jpg",
     "static/media/insurance-premium.jpg": "/ndao-portfolio/static/media/insurance-premium.f62785ce37acc8062a79.jpg",
     "static/media/momo.png": "/ndao-portfolio/static/media/momo.036e9d04a81511463714.png",
+    "static/media/NgocDao_Resume_20251022.pdf": "/ndao-portfolio/static/media/NgocDao_Resume_20251022.5794d63c2a77b6f20a61.pdf",
     "static/media/vcb.png": "/ndao-portfolio/static/media/vcb.6ce93f942726fba38055.png",
     "static/media/pro_pic.jpg": "/ndao-portfolio/static/media/pro_pic.b2c9e1f14cb8a2b2be54.jpg",
     "static/media/brand.png": "/ndao-portfolio/static/media/brand.47b64bab914a72fc916c.png",
@@ -15,11 +16,11 @@
     "static/media/segmentation.png": "/ndao-portfolio/static/media/segmentation.f707633a49ae1a3eeabd.png",
     "index.html": "/ndao-portfolio/index.html",
     "main.12933fd2.css.map": "/ndao-portfolio/static/css/main.12933fd2.css.map",
-    "main.ec124644.js.map": "/ndao-portfolio/static/js/main.ec124644.js.map",
+    "main.b6c8fd15.js.map": "/ndao-portfolio/static/js/main.b6c8fd15.js.map",
     "453.b05d8aa5.chunk.js.map": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12933fd2.css",
-    "static/js/main.ec124644.js"
+    "static/js/main.b6c8fd15.js"
   ]
 }
