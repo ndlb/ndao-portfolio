@@ -4,14 +4,13 @@ import vcbImg from "../assets/images/vcb.png";
 import segmentImg from "../assets/images/segmentation.png";
 import creditImg from "../assets/images/credit.png";
 import churnImg from "../assets/images/churn.png";
+import garchImg from "../assets/images/garch.png";
 import "../assets/styles/Project.scss";
-
 function Project() {
     return (
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
-
         <div className="project">
             <a href="https://github.com/ndlb/Momo-Analytics/blob/main/Momo%20Analytics.pdf" target="_blank" rel="noreferrer">
             <img src={momoImg} className="project-thumbnail" alt="MoMo Project Thumbnail" />
@@ -23,7 +22,6 @@ function Project() {
             </p>
             <p className="tags">Python • Pandas • Cohort Analysis • Matplotlib</p>
         </div>
-
         <div className="project">
             <a href="https://github.com/ndlb/VCB-Customer-Service" target="_blank" rel="noreferrer">
             <img src={vcbImg} className="project-thumbnail" alt="VCB Project Thumbnail" />
@@ -35,7 +33,6 @@ function Project() {
             </p>
             <p className="tags">Power BI • Power Query • Data Cleaning • Dashboarding</p>
         </div>
-
         <div className="project">
             <a href="https://github.com/ndlb/Customer-360-Segmentation" target="_blank" rel="noreferrer">
             <img src={segmentImg} className="project-thumbnail" alt="Segmentation Project Thumbnail" />
@@ -46,7 +43,6 @@ function Project() {
             </p>
             <p className="tags">SQL • RFM • Customer Analytics • Data Segmentation</p>
         </div>
-
         <div className="project">
             <a href="https://github.com/ndlb/Credit_Classify/Credit_Classify_Modeling.ipynb" target="_blank" rel="noreferrer">
             <img src={creditImg} className="project-thumbnail" alt="Credit Classification Thumbnail" />
@@ -58,7 +54,6 @@ function Project() {
             </p>
             <p className="tags">Python • scikit-learn • XGBoost • PCA • Keras</p>
         </div>
-
         <div className="project">
             <a href="https://github.com/ndlb/Churn-Analysis" target="_blank" rel="noreferrer">
             <img src={churnImg} className="project-thumbnail" alt="Churn Project Thumbnail" />
@@ -70,10 +65,19 @@ function Project() {
             </p>
             <p className="tags">Python • Logistic Regression • Churn Modeling • Data Visualization</p>
         </div>
-
+        <div className="project">
+            <a href="https://docs.google.com/presentation/d/19vCj9rL7qkdheMiEF-9yWvCKIxeJhCng1cqwA0_yOMU/edit?usp=sharing" target="_blank" rel="noreferrer">
+            <img src={garchImg} className="project-thumbnail" alt="Volatility Forecasting Thumbnail" />
+            <h2>Tech Stock Volatility Forecasting</h2>
+            </a>
+            <p>
+            Compared GARCH, GJR-GARCH, and GARCH-X models on 10 years of returns for 10 tech stocks.
+            Found GARCH-X best forecasts out-of-sample volatility for 9 of 10 stocks by QLIKE.
+            </p>
+            <p className="tags">Python • GARCH • Time Series • Volatility Forecasting</p>
+        </div>
         </div>
     </div>
     );
 }
-
 export default Project;
