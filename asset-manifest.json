@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/ndao-portfolio/static/css/main.12933fd2.css",
-    "main.js": "/ndao-portfolio/static/js/main.860dcba7.js",
+    "main.css": "/ndao-portfolio/static/css/main.ab0862c3.css",
+    "main.js": "/ndao-portfolio/static/js/main.0437db07.js",
     "static/js/453.b05d8aa5.chunk.js": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/ndao-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/ndao-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/productivity.jpg": "/ndao-portfolio/static/media/productivity.9dae59f6c8c01dcc5b24.jpg",
-    "static/media/insurance-premium.jpg": "/ndao-portfolio/static/media/insurance-premium.f62785ce37acc8062a79.jpg",
+    "static/media/insurance.jpg": "/ndao-portfolio/static/media/insurance.f62785ce37acc8062a79.jpg",
     "static/media/momo.png": "/ndao-portfolio/static/media/momo.036e9d04a81511463714.png",
-    "static/media/NgocDao_Resume_20251022.pdf": "/ndao-portfolio/static/media/NgocDao_Resume_20251022.5794d63c2a77b6f20a61.pdf",
     "static/media/vcb.png": "/ndao-portfolio/static/media/vcb.6ce93f942726fba38055.png",
+    "static/media/izone-dashboard.png": "/ndao-portfolio/static/media/izone-dashboard.67d07fc926550bbbe507.png",
     "static/media/pro_pic.jpg": "/ndao-portfolio/static/media/pro_pic.b2c9e1f14cb8a2b2be54.jpg",
+    "static/media/izone.jpg": "/ndao-portfolio/static/media/izone.b3259c46f6b3b2f38fe4.jpg",
     "static/media/brand.png": "/ndao-portfolio/static/media/brand.47b64bab914a72fc916c.png",
+    "static/media/wikipedia.png": "/ndao-portfolio/static/media/wikipedia.e8d4bfd070d216b954f1.png",
+    "static/media/garch.png": "/ndao-portfolio/static/media/garch.1fd9b4287644c7250e13.png",
     "static/media/credit.png": "/ndao-portfolio/static/media/credit.dce359f33c519df960d8.png",
     "static/media/segmentation.png": "/ndao-portfolio/static/media/segmentation.f707633a49ae1a3eeabd.png",
     "index.html": "/ndao-portfolio/index.html",
-    "main.12933fd2.css.map": "/ndao-portfolio/static/css/main.12933fd2.css.map",
-    "main.860dcba7.js.map": "/ndao-portfolio/static/js/main.860dcba7.js.map",
+    "main.ab0862c3.css.map": "/ndao-portfolio/static/css/main.ab0862c3.css.map",
+    "main.0437db07.js.map": "/ndao-portfolio/static/js/main.0437db07.js.map",
     "453.b05d8aa5.chunk.js.map": "/ndao-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12933fd2.css",
-    "static/js/main.860dcba7.js"
+    "static/css/main.ab0862c3.css",
+    "static/js/main.0437db07.js"
   ]
 }
