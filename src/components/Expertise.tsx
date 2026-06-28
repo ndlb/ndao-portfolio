@@ -93,24 +93,25 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartLine, faTable, faFlask } from '@fortawesome/free-solid-svg-icons';
+import { faFlaskVial, faBrain, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-"Python", "Pandas", "NumPy", "Seaborn", "Matplotlib",
-"SQL", "PostgreSQL", "Excel", "Tableau", "Power BI"
+"Hypothesis Testing", "A/B Testing", "ANOVA",
+"Regression Analysis", "Statistical Inference",
+"Statsmodels", "R", "Stata"
 ];
 
 const labelsSecond = [
-"Metabase", "Git", "VS Code", "Jupyter Notebook", 
-"Power Query", "Pivot Tables", "VLOOKUP"
+"Python", "scikit-learn", "XGBoost",
+"Time Series Forecasting", "Feature Engineering",
+"Pandas", "NumPy"
 ];
 
 const labelsThird = [
-"Scikit-learn", "Statsmodels", "R", "Stata",
-"Machine Learning Models", "Hypothesis Testing", 
-"Statistical Inference"
+"SQL", "PostgreSQL", "Metrics Definition", "Cohort Analysis",
+"Tableau", "Power BI", "Metabase", "Streamlit"
 ];
 
 function Expertise() {
@@ -121,9 +122,8 @@ return (
         <div className="skills-grid">
 
         <div className="skill">
-            <FontAwesomeIcon icon={faChartLine} size="3x"/>
-            <h3>Data Analysis & Visualization</h3>
-            <p>Experienced in wrangling and visualizing datasets using Python and SQL to uncover trends, patterns, and actionable insights.</p>
+            <FontAwesomeIcon icon={faFlaskVial} size="3x"/>
+            <h3>Statistical Inference & Experimentation</h3>
             <div className="flex-chips">
             <span className="chip-title">Tech stack:</span>
             {labelsFirst.map((label, index) => (
@@ -133,9 +133,8 @@ return (
         </div>
 
         <div className="skill">
-            <FontAwesomeIcon icon={faTable} size="3x"/>
-            <h3>Business Intelligence & Reporting</h3>
-            <p>Skilled in creating dashboards and automated reports to support marketing, operations, and product decisions.</p>
+            <FontAwesomeIcon icon={faBrain} size="3x"/>
+            <h3>Machine Learning & Predictive Modeling</h3>
             <div className="flex-chips">
             <span className="chip-title">Tech stack:</span>
             {labelsSecond.map((label, index) => (
@@ -145,9 +144,8 @@ return (
         </div>
 
         <div className="skill">
-            <FontAwesomeIcon icon={faFlask} size="3x"/>
-            <h3>Applied Statistics & Machine Learning</h3>
-            <p>Used statistical inference and predictive models to analyze customer behavior, campaign impact, and financial performance.</p>
+            <FontAwesomeIcon icon={faChartLine} size="3x"/>
+            <h3>Product Analytics & Metrics</h3>
             <div className="flex-chips">
             <span className="chip-title">Tech stack:</span>
             {labelsThird.map((label, index) => (

@@ -54,6 +54,27 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
+
+    .resume {
+        margin-top: 1.5rem;
+    }
+
+    .resume-button {
+        display: inline-block;
+        padding: 12px 28px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .resume-button:hover {
+        background-color: #fff;
+        color: #111;
+    }
 }
 
 .about-section .image-wrapper {

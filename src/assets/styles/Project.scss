@@ -24,6 +24,40 @@
     padding: 5% 10%;
     text-align: left;
   }
+
+  .project-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .project-tabs button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .project-tabs button:hover {
+    background-color: #ddd;
+  }
+
+  .project-tabs button.active {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .projects-section {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
   
   .projects-container .projects-grid {
     display: grid;

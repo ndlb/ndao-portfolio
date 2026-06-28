@@ -15,40 +15,53 @@ function Timeline() {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Starting July 2025"
+            date="May 2026 - Present"
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Corpus & Language Model Development Assistant</h3>
-            <h4 className="vertical-timeline-element-subtitle">University of Rochester</h4>
+            <h3 className="vertical-timeline-element-title">Data Scientist Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">CompStak · New York, NY</h4>
             <p>
-              Corpus Development, NLP, Linguistics, Language Modeling, Research
+              Predictive Modeling, Feature Engineering, Spatial Modeling, Confounder Control, Model Interpretability
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="June 2025 – Present"
+            date="Aug 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Analyst</h3>
+            <h4 className="vertical-timeline-element-subtitle">iZone, University of Rochester · Rochester, NY</h4>
+            <p>
+              Time Series Forecasting, Hypothesis Testing, Regression Analysis, Impact Measurement, Marketing Attribution
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Jun 2025 - Aug 2025"
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <h4 className="vertical-timeline-element-subtitle">MCredit · Hanoi, Vietnam</h4>
             <p>
-              Dashboards, Marketing Analytics, Operations Analysis, Reporting, Visualization
+              Customer Segmentation, Clustering, Cross-Selling Strategy, Process Automation, Cross-Functional Collaboration
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2024 – Present"
+            date="2024 - Present"
             iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Teaching Assistant & Peer Educator</h3>
             <h4 className="vertical-timeline-element-subtitle">University of Rochester</h4>
             <p>
-              Python, Economics, Math, Peer Tutoring, Lab Instruction
+              Economics, Mathematics, Peer Tutoring, Lab Instruction, Technical Communication
             </p>
           </VerticalTimelineElement>
 
@@ -59,22 +72,9 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">MB Bank – Hanoi, Vietnam</h4>
+            <h4 className="vertical-timeline-element-subtitle">MB Bank · Hanoi, Vietnam</h4>
             <p>
-              SQL, Excel, Risk Analytics, Financial Reporting, CASA Data
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Spring 2024"
-            iconStyle={{ background: '#5000ca', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Market Research Extern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-            <p>
-              User Interviews, Competitor Research, Product Strategy, Insight Synthesis
+              Risk Analytics, Financial Reporting, Data Analysis, Banking Analytics
             </p>
           </VerticalTimelineElement>
 
@@ -85,4 +85,3 @@ function Timeline() {
 }
 
 export default Timeline;
-
